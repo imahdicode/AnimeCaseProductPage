@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <style>
+        #bg-video {
+            z-index: -2;
+
+        }
+
+        .overlay {
+            z-index: -1;
+
+        }
+    </style>
+</head>
+
+<body class="bg-black text-light position-relative ">
+
+    <div class="main-content">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-black ">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="https://sparkyneon.in/cdn/shop/files/Naruto_Anime_Neon_Sign.jpg?v=1724653455&width=1445"
+                            class="img-fluid rounded-top" alt="" height="50px" width="50px" />
+                    </a>
+
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html" aria-current="page">Home
+                                    <span class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">Product</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <div class="">
+                            <a href="register.html" class="btn btn-primary">Register</a>
+                            <a href="login.html" class="btn btn-primary">Login</a>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <main class="">
+            <video id="bg-video" class="position-fixed top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop
+                playsinline>
+                <source src="bg-anime.mp4" type="video/mp4">
+            </video>
+
+            <div class="overlay position-fixed top-0 start-0 w-100 h-100 bg-black opacity-50"></div>
+
+
+            <div class="container ">
+                <div class="row justify-content-center align-items-center g-2">
+                    <div class="col-6">
+                        <h2 class="text-center my-3">Contact Us</h2>
+
+                        <div class="container col-5">
+                            <div class="table-responsive">
+                                <table class="table table-light table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Name</th>
+                                            <td scope="col">Mahdi</td>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="">
+                                            <th scope="row">Address</th>
+                                            <td>India</td>
+
+                                        </tr>
+                                        <tr class="">
+                                            <th scope="row">Phone No.</th>
+                                            <td>8104045174</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+
+
+                        <div class="container col-10">
+
+
+
+                            <form class="" action="">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" name="formId1" id="formId1"
+                                        placeholder="" />
+                                    <label for="formId1" class="text-black">Name</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" name="formId1" id="formId1"
+                                        placeholder="" />
+                                    <label for="formId1" class="text-black">Address</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" name="formId1" id="formId1"
+                                        placeholder="" />
+                                    <label for="formId1" class="text-black">Email</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="tel" class="form-control" name="formId1" id="formId1" placeholder="" />
+                                    <label for="formId1" class="text-black">Phone No</label>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary ">
+                                        Submit
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </main>
+        <footer class="text-center bg-transparent text-white mt-auto p-3">
+
+            &copy; All rights reserved.
+        </footer>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
